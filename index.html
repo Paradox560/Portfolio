@@ -1,42 +1,3 @@
-<!--<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body class="is-preload">
-    <div id="wrapper">
-        <div id="bg">
-    <h1> Pranav Palle </h1>
-    <!<hr> is horizontal line
-    <hr>
-    <h2> Connect with me </h2>
-    <button><a href="https://www.linkedin.com"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAATEAAAClCAMAAAADOzq7AAAA4VBMVEVyidn///////1tgtZyidf///tyidr//v/8//2Bl9tziNvv9/n0+Ppvidn8//9yiNze5vOAk93///dxitVqgdJogNh7i9dqfttujNV6i9tzh97N2e/K0+zo7Pb///XZ4++7w+logtBvjNC8yOZ7jdG1vt5rfd90huGfr9eSnuFnhdnW3e1vftGOntGCkNyuuN+msuKLmMx8jsiUoty2xeCZqt2suNrN2eihrdWZo9D08/p+hNrk7vOqt+Tg4fCruOqtstWeqeaZoct6kcZojNJpgMSNlNLZ6Oy3w9lfecuept234CM0AAASM0lEQVR4nO2cCXvbOJKGSVykIYGQCVKiocOmJIe2ZEeOj/hYpWd6Z+Pu9f//QVsAqMtH4muTecb43O04lAwCL6sKVQCUIPDy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy+hUigQ4CrieTDL9EWamySistf3f/f4cI0SI4mTZepGazsbvfrgr1u3v/6yX5kOW38zSM4OvZisJ0gMKbi5z97v7/ekmuqi8UIfpCATaUorsPiIxz1ZmHFBkC7v+1H5+8hFAIjBGKxx8vkDGuTtDz3XFdwCwdZb97AL9cnJXT9HXEANmgUX40t+Ra4SZ9JbEwRsn4oxFjUuXN1wJDcYS2PhoxSMfwq4kZbfHfPYBfLk/spfoFxPh/FtV3J2YCG1kXY5tJG3nQB2aYcn6PLIfLzL3KH4uW9cX1l1Y3fdAnsvEae8NTfG9iRHPCF2KGFpQVixdlILRFQ4jrsh2BqU7tQODacqgCZiXGAngXNMLWkMFgBYELkgdKESLk8iUtuTaY7Z0JUYK45pSSZLNPWqrhvw0xrmAMwslaRxHwpY0RRZg2L1SiYM4Yua6qHON8IoUYFqvFEPNLROA8xxMiiiFZviAlU4USE4yrSjMdLIeuCilUfWexMG9zE3hAQoq1PsEL8vXFyvOIPVkW3CfG5ZCp9kIKrACGDBbhDEHo9ql9Yayc48BAytOL/dHo/GTrqCMFWxgMDF9n7bPZ+fnXi3FeCVUbHxiWrPL889lsNJqdfClzzRZ+qVWbL2+9wwF2pyKKmdq5kOP1PgWTbCJfnRY9JGYKyWcXTveJMaY6ozBZU7M1OsTMxRuVTZG7elq5eKL2+9SUW1DZNkfjnJFFMxP1tRUjU8GGSf8K64W7Mp7967wRozRFkHk3L6+zugcsm9Noedc4ac4vr9rY2pgS+eVGnxq7+7f4tcjuE0M0jSiNW/tn1y1EkcVHw6utk94NsgX7pr098EoW5HurxpBj3z8sCUQVpfJdGtvr25wpXpVXN1DTh5ERXE72sS4Il6qosm835jfrF8L+LeYBOLJSVdCz3YjqG4T9405h5haGG2j1pO1PtPk1k3pcKZlP17tk3zU9LWVApHg4Eb2QWBKjQXPvv6pv8zC+me92QbvzZtif5dlZN3brPM8mthCle5jDDADEkCEWxtuEVUO8h+qn4N6Vol0I3xB/JuoSzC5ZjnJAmwcTqWDi6Bw3NroADcR7eEgssYhuPM0EGvyrTTSErbz7sE/xN7BcIl88aT7wShTPsLps/DE7bEMosMrU8T+6zZ7KT6fhZqceifzkITGURoPukdQBWRELGMFfzUrbqr0IjHn3u3HgbEppFKZrDaDkGEOYF4cxjaKNoAEesdcx8Q837nWOImixn7HgUWJhmp5nfPjyhfcHXtlXnf3pCc4hQhYFRG4zMfHqqCwuul/z/CrZvO2ziIElpOGsZEysE1O3cbq57mtQnEgi8YiixASD5a/D8BvQFTFuAEm0QQwllJ5gsO0HxMwqXkh7mXyMGDI3v+oo9SYbg27SZLzz9TaHuYlLDfOQSR5hKhaQw7Bs62Dn+4j+OI4tiKGFEhpZP0pONZHrXpn3QmqIoTBuNGBwCJyqeY2B2BiZ2QAZ84Ehp/A9ige0h9WkR91yZgQOB9/Nz2kc0SY4rC5rYsjcEBpAkVnCi9PPE8IdMbiF+RVr1wOaROim1G8ndom1qmzmCNPSxjsBnNpR7eR5xBIToSyyQeRmi/O80Os2ljWQI9blnzrqpE/TtDXOoQk8Qm5ZPAobu7uNJIxjM9S+FiqhLqSjuN+9bMXAJbS3mWlSZQtiaWh+HXiadyZ0b0kspHWfYKJ13T+AWeFtxGh4LDl5vBEOVkd03v3JXLmwMRr+8+zw8PDPXui6R1uZ4us2thUbYkDiiA2HuirP6QiyVQhI2TxMLbH46gii6Je/AEzSvf7O1AG1M0WEuuMy7+RkFqfOQ3dxsCQW3cFtzw4u7WOiMdx34ZXQp/82fTqZIhcPaBcHb4v8pnlI8B7fU9Mm4eTibCMcPB3H0vCsM4RImM+oDeFRDCXNGjF5Bl5nhtHrBOzTmMjJFqStprlsEA3sAA9zDRWOzluN/WFeVSQbgfmYV6bZJw3JKSuvaotvYsIdsShM/qX+R3VUvu8cMYzxklgaElmYPo3sIwnp/Ch4cVq2QQzRkwkPnrBTmPaheZL3Q7TKye4TIwGviYG5TiRoUvaRI9YWa3Ml4Vs1sXlZkWEF1ajQlWmCtdMoNb7TL4lN8gXBFYfAGuS9NLLh/IwNFVSRArJW5EIXJ8GCWDiWGt5eHd2ELqixQC5sDA2FhjJLutiCEJB+KbBNYlEMFfBPhL+iVab0CDFZjtzDpYe2LVa2qLuwLYJ1G1NxaH0DzY9xXhRCFIrZ2mXbhCAIZS18/9ZdCGMwC4Rbi6or77scO94RcknscyGBL7HxAyDFbS6xzWCh3bYlxLJm+C7EEJ3iNQN73F75aUKTp21MMCCGbApwOKmJuXffJ5a3Bjbyg83Me//YzjBMLfaW20DAzGh/PEnssO6awDUxuhOsEVOS6EJ0/rDEwpgzXtqotiDGGG7WNsbfaGPglEtijK0RW/8L7qcR/QGxyZ6B8BgxEqzPlXqGwsRGFwgqA3rTuyu5LTa34bopBp6yMQTEWN35JTG2TgzyGKW/mMYhY2lAdMdd+76I1jb2XsRQDAO2V4XE47GaGBxQSMhsPC7lokrOF/H3MWKQkujx1GViS698zMYCJoIbm6TCtyiOYGhofpGbhaI3EYO8pl3mWVYe9h0UmEcJ16d9N8m22bsSC+e5S+i4UKMk6V9MFIESYzJuxcl0LImjww4hI3+SGLTIyl5KYxjXj4gRRqrjmK7XlWiARt+lEJ+N7Zm0IH+MGITyHxOLWkb9OHWZG+SBphfjP2gEc2Wbvysx1KvTE5nBmEFfpIRQruYDlNI+0Y6OIDF6Mo6Z7kCbeybr/gkxOcQXscnpV/dHdARl4BuJmWzfVAs2RkaD2G2pGsdM03D8vl4ZnkzcQp8YJ1ES07CLpQrwCaS2MLSDSlgrE0d9+rRXGmmRfwO/OpQ/JBYojW9bg1VtaZZ9IINmC2K7jxML6Sry548SM48rdnl9RLsdk17ySuAejMgR4+9FjG7XuYW+TsGGIcErBQyrN7AF3CUubDUg8h76MTElIbeMwjNLTDxFrDDpKf6zZRfMrD2AdQympfyJjYWrOPYosbqmhboKWkz7bW2IESEV3g/R2PZXZO9ErFkRVyHpM3gckSlsRKHxyJa24d95YZNbWc7SH3mlESOTa3SnLb7JvF6JvBf5bfaicbZ9NZo2LQjz0OLx5DPMBPC4IPIzt3VHAreb5GY8Q0y6LT3R6ZuHd4+YNUPnnrR5quvlW7hf/s/w1IyAqbLxPsTmHbKIY/OBiZP7FVNc3yammA6/aGFfleputab31H4l1+T4ENuOuljzCDEzZCWkBGrqap64uiU8FitiriWowLlcEDN5S3hY50BALHzolYvACAXSeVWtLbJWRyc75inyd7OxaaeQzi/1cZMO6LQ0+w4y2zeV8X5W5xdcbNGf2Ri0oOuJguO+M5/4Xj5m8FcZ10N4TLrzfWrflYYn5efYEIOYkJm6XOoAdypb64JXuuNstzKwAVfkNbFVzg9/azZd1Rih61ytb0NBlmZ2SqA8Lt+JWK9TVLaFHTEZ748uMhNpJNTIx6PR2YQVbvsPEqn4h8Ss9UBBzyx9sz5kuwd15QYxqFLxceNLx+w4Eoav7DApzD47QAzGnjbAKwnR8nt3f4iNF+IesrlxeFByM1SoHs0bXc6vl/nY6W3s7NX4ZCA5W5QvhSaOmDp0iyOomb2N2AhzqaAbDDiJPMfM3UswlgvIBuqlhWqYPx3HIM2CyLdUjnMydTNr1CRqbX1MMKI+3cU0mZUTzYjOum4Q4d0kczYG/Sk7qtAZ1KnNURtL0dlHdukrvDnNpRLV5Hs3hYABZe68lGSxBpt8xjOzkAkp/qCPOUStSrGNk+L5uF9PEf1SvGl9bC+HaojwPy86QvNhQZY70UxD/VKQzp9bcEkXn562MQKpxUm3B7Lf4I+GcxGYRvDm+liFr2KYE+l8dPd5+2rqLDGF2Jy36hyN7h7cbp3sphQyqbh3GpCz1Dn4ID4/a7dvv87j2HlXN9M1sShMtmVpXdxMWN0jDfMVmezX3bHabaQuB6e9/OWnxdeJ7eeQTMDX+V+HmdAV+GQNjBRC5/nF7oGJZEwcNX+Q8+t8tHEOOY1cXk9nOFDrNlZeIXgNJhiI0HGYDmquMNXMqFsdsVsgdjfQZB7JuDqa1/ZqonsCRQKMPDZg7qRmS2KfwVMaJsNPogGdTVQgRL67efA5quuz44q8GNmKWBQ2x+ZDDTzI7uLG7DTLJ+bIA1ThfDIpv5w359s2XeDZ+dPrYxBbgNhqwyNa7lk2jwq5vj4mL8wOgFl7D93au5tOLjQT2U1kjSyl9ohyaqqyiJ53eH5S22tar/ejJIHfTFu44HJJbEexyVlstwqg0etPSg5X+5WuU27xO2zBxPMGYmDs/TbWWjEwrv0m6vdmZ2OCORmffev1w/lJVhjv5BAlfjBXMrWxl5TY/QjzC9fQN7buldmlWVmw6zpmA8XUMBHqms+h6OtwYNby7dDMJw1QDPnsEYM4OE0NwGi1U2t2oeNTaJuvbEzBo/kb2ZeiFMyAB3iDmOmQeTW5ZU8tnz6TWIQa17lZvdAqP7oxI4njuNlMjCv8/b+cSznUn9o9qJif9kp2f/ctSRIwpXRmEnixUVcede1+j7MayNGjQTr9brZcOeQzaG2/MqED1G9XpGLVuAWl1HLisWubND6ztTZeWx9TqrPrtl0QmmfaBLbNPhnTje/uL468mJjZwpkegzcqXV66UYTOBBKU3AkxUTnZbxgH+sFqz31iEQXjabiPl7D6FIHNLhjp7MWLHV6IOhDue5lJ4swC/gHUhdGyWwM0/a5NjJVa9cyuxhIZVI/9MwhVbIMYOIkeN10xTmFaENmmV6IUIuD8MGOPL5o+n5jZm6Jhf3Sx3d4b0HrLEeJkHIPPRLftw29TmLQNxpcQQ2H/XLsiPoBpcJH/s2Els9tpvZxr7rJ7nEvIkrk5CaZ3uvUca7pxc5VJs/AEYOSn4914udGAUGNfVYXJdA0xd9V4pSw6126LF/r6d5b/sdEns4kwu1+1voaYjTcmqsLkFbnFURciTSgynmisLt04e/GAmGTZt9aapr3ZlyMt6hIfj6bTbrc7nW4zaeJahb+M5va0TWv/tCOFMofszIFFUuD2bLdhtpwb0yslIKvhOjAn8iCY3Y5aTSCdJPPugerIQtsZKbusb9km3LAtR8tObOHRvT7dQqL4ymOK733iDoxE5Z1aeZ53crw6qgUTWmZVKhdymZRlpre326q8l32bgxQd3N7abuNcb245cJbn/PPW1jbJymx1nI/j8js2N134mj02AhdwyTXuLPsE/2H8hqO5739ymHNVOJk/FV/fI+CMmx05uX6wlQmiCJTbD+uVoiBCCGWdbl0MmhXwW0pttCM5GGmx+gSjKpQ7PGKm+LUuwTteFcD+n4i5c6jSfIEgu2NrxMwg7XHLxTFhDmFLmsVFgKMfds5W81I/zJLhEtzBnWtdAlLMNLx+MNR2Q3MDTsplnx49h/z7iElz/FeZL2VPYpJ1YvCjsCeHgat07wbEBAajg/uGZN4umYKSWz2wPih9pfnGFu3UhODaxruJe0bm/IOq+/QmWK7RX/oJiFc83X+7j/H4z4y8VJ7YS/VCYou6+uMSY7q8iZ8PrHkziAbryD4esQCK1Bd8IjW9/mvz7OrHIyaIuHg+sDAdfWrZo5EfmJjSpa1S0TNkznp1zIrwT/bE/9PFthsImeXOZ4jSbZ31oDxG9bmGD0ks4Du7g2fxMksnX/G4M7LHS9CHJcaEyg97u61nqT8qK5LPzDa92b7/mMRMPczyZ/6jUEe5ZpLkBzFNow9MzBRv4lmypW0gi/wgMdsL9OMSe4HMWgkX+W3DfqTqA/57F68TI5N230yXntgzpUil8BSlnthzJbmSutOjyMexF4gIPPNx7EVSFT7wxF4gpiGaveKM3weWYszz8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vL6D9b/ATfIf5YEK3FwAAAAAElFTkSuQmCC"></a></button>
-    <button><a href="https://www.discord.com"><img src="https://static-00.iconduck.com/assets.00/social-instagram-icon-2048x2048-xuel0xhc.png" width=200 height=200></a></button>
-    <button><a href="https://www.instagram.com"><img src="https://images.ctfassets.net/lzny33ho1g45/iORF0CVaM9DdDBIS4dz9W/93a56ec07b57ec19b93cb593febbcc8f/linkedin.png?w=1520&fm=jpg&q=30&fit=thumb&h=760" width=400 height=200></a></button>
-    <p></p>
-    // <em></em> is emphasis (aka italicized)
-    <h3><b>About Me</b></h3>
-    <p>
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
-        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
-        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-        Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore 
-        eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in 
-        culpa qui officia deserunt mollit anim id est laborum."
-    </p>
-
-    <h4><a> Who Am I? </a></h4>
-    <h4><a> Honors </a></h4>
-    <h4><a href="projects.html"> Projects </a></h4>
-    <h4><a> Contact </a></h4>
-    </div>
-    </div>
-</body>
-</html>-->
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -48,69 +9,11 @@
 </head>
 <body>
     <div class="">
-        <h1>
+        <h1 id="name">
           Pranav Palle
         </h1>
-    <!--
-    <div class="card-body">
-        <div class="site-container">
-            <div class="article-container">
-                <article class="article">
-                    <figure class="article-image">
-                        <img src="bg.jpg">
-                    </figure>
-                    <div class="article-content">
-                        <a href="#" class="card-category">Potato</a>
-                        <h3 class="card-title">Who Am I</h3>
-                        <p class="card-excerpt">This contains stuff</p>
-                    </div>
-                </article>
-            </div>
-        </div>
-        <div class="site-container">
-            <div class="article-container">
-                <article class="article">
-                    <figure class="article-image">
-                        <img src="bg.jpg">
-                    </figure>
-                    <div class="article-content">
-                        <a href="#" class="card-category">Potato</a>
-                        <h3 class="card-title">Projects</h3>
-                        <p class="card-excerpt">This contains stuff</p>
-                    </div>
-                </article>
-            </div>
-        </div>
-        <div class="site-container">
-            <div class="article-container">
-                <article class="article">
-                    <figure class="article-image">
-                        <img src="bg.jpg">
-                    </figure>
-                    <div class="article-content">
-                        <a href="#" class="card-category">Potato</a>
-                        <h3 class="card-title">Honors</h3>
-                        <p class="card-excerpt">This contains stuff</p>
-                    </div>
-                </article>
-            </div>
-        </div>
-        <div class="site-container">
-            <div class="article-container">
-                <article class="article">
-                    <figure class="article-image">
-                        <img src="bg.jpg">
-                    </figure>
-                    <div class="article-content">
-                        <a href="#" class="card-category">Potato</a>
-                        <h3 class="card-title">Contact</h3>
-                        <p class="card-excerpt">This contains stuff</p>
-                    </div>
-                </article>
-            </div>
-        </div>
-    </div>
--->
+        <input id="colorInput" type="text" v-model="styles.color">        
+
         <div class="glass-card">
             <p> Projects</p>
             <p>A glass-like card to demonstrate the <strong>Glassmorphism UI design</strong> trend.</p>
@@ -134,79 +37,111 @@
         <br>
         <br>
         <br>
-    <h2> Contact Information </h2>
-    <div class="square-body">
-        <div class="container">
-            <div class="card">
-                <div class="face face1">
-                    <div class="content">
-                        <div class="icon">
-                            <i class="fa-brands fa-linkedin"></i>                        </div>
+        <h2> Contact Information </h2>
+        <div class="square-body">
+            <div class="container">
+                <div class="card">
+                    <div class="face face1">
+                        <div class="content">
+                            <div class="icon">
+                                <i class="fa-brands fa-linkedin"></i>                        </div>
+                        </div>
                     </div>
-                </div>
-                <div class="face face2">
-                    <div class="content">
-                        <h3> 
-                            <a href="https://www.linkedin.com/in/pranav-palle-22059527a/"> Pranav Palle </a>
-                        
-                        </h3>
-                        <p> Connect with me </p>
-                    </div>
-                </div>
-            </div>
-            <div class="card">
-                <div class="face face1">
-                    <div class="content">
-                        <div class="icon">
-                            <i class="fa-brands fa-square-github"></i>                        
+                    <div class="face face2">
+                        <div class="content">
+                            <h3> 
+                                <a href="https://www.linkedin.com/in/pranav-palle-22059527a/"> Pranav Palle </a>
+                            
+                            </h3>
+                            <p> Connect with me </p>
                         </div>
                     </div>
                 </div>
-                <div class="face face2">
-                    <div class="content">
-                        <h3> 
-                            <a href="https://www.linkedin.com/in/pranav-palle-22059527a/"> Pranav Palle </a>
-                        </h3> 
-                        <p> View my recent projects </p>
+                <div class="card">
+                    <div class="face face1">
+                        <div class="content">
+                            <div class="icon">
+                                <i class="fa-brands fa-square-github"></i>                        
+                            </div>
+                        </div>
                     </div>
-                </div>
-            </div>
-            <div class="card">
-                <div class="face face1">
-                    <div class="content">
-                        <div class="icon">
-                            <i class="fa-brands fa-discord"></i>                        
+                    <div class="face face2">
+                        <div class="content">
+                            <h3> 
+                                <a href="https://www.linkedin.com/in/pranav-palle-22059527a/"> Pranav Palle </a>
+                            </h3> 
+                            <p> View my recent projects </p>
                         </div>
                     </div>
                 </div>
-                <div class="face face2">
-                    <div class="content">
-                        <h3> 
-                            <a href="https://www.linkedin.com/in/pranav-palle-22059527a/"> the_pranav </a>
-                        </h3>
-                        <p> We're CS Majors, we use discord like a lot </p>
+                <div class="card">
+                    <div class="face face1">
+                        <div class="content">
+                            <div class="icon">
+                                <i class="fa-brands fa-discord"></i>                        
+                            </div>
+                        </div>
                     </div>
-                </div>
-            </div>
-            <div class="card">
-                <div class="face face1">
-                    <div class="content">
-                        <div class="icon">
-                            <i class="fa-brands fa-slack"></i>                        
+                    <div class="face face2">
+                        <div class="content">
+                            <h3> 
+                                <a href="https://www.linkedin.com/in/pranav-palle-22059527a/"> the_pranav </a>
+                            </h3>
+                            <p> We're CS Majors, we use discord like a lot </p>
                         </div>
                     </div>
                 </div>
-                <div class="face face2">
-                    <div class="content">
-                        <h3> 
-                            <a href="https://www.linkedin.com/in/pranav-palle-22059527a/"> the_pranav </a>
-                        </h3>
-                        <p> We're CS Majors, we use discord like a lot </p>
+                <div class="card">
+                    <div class="face face1">
+                        <div class="content">
+                            <div class="icon">
+                                <i class="fa-brands fa-slack"></i>                        
+                            </div>
+                        </div>
+                    </div>
+                    <div class="face face2">
+                        <div class="content">
+                            <h3> 
+                                <a href="https://www.linkedin.com/in/pranav-palle-22059527a/"> the_pranav </a>
+                            </h3>
+                            <p> We're CS Majors, we use discord like a lot </p>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
+
+        <!-- Contact -->
+        <article id="contact">
+            <h2 class="major">Contact</h2>
+            <form method="post" action="#">
+                <div class="fields">
+                    <div class="field half">
+                        <label for="name">Name</label>
+                        <input type="text" name="name" id="name" />
+                    </div>
+                    <div class="field half">
+                        <label for="email">Email</label>
+                        <input type="text" name="email" id="email" />
+                    </div>
+                    <div class="field half">
+                        <label for="message">Message</label>
+                        <textarea name="message" id="message" rows="4"></textarea>
+                    </div>
+                </div>
+                <ul class="actions">
+                    <li><input type="submit" value="Send Message" class="primary" /></li>
+                    <li><input type="reset" value="Reset" /></li>
+                </ul>
+            </form>
+            <ul class="icons">
+                <li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
+                <li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
+                <li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
+                <li><a href="#" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
+            </ul>
+        </article>
     </div>
-    </div>
+    <script src="script.js"></script>
 </body>
 </html>
